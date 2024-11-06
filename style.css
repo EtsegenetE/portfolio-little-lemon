@@ -75,14 +75,16 @@ article  {
     flex: 1 0 100%;
 }
 
-a {
-    text-decoration: none;
-    
-}
+
 
 section.bottom {
     margin: auto;
     max-width: 700px;
+}
+article {
+    border: 0.5px ;
+    margin: 10px;
+    
 }
 
 
@@ -94,8 +96,13 @@ footer {
     display: flex;
     margin: auto;
     justify-content: space-between;
-    width: 50%;
+    width: 40%;
     padding-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    
 }
 
 button {
