@@ -64,8 +64,16 @@ article  {
     width: 100%;
     max-width: 500px;
     margin: auto;
-    background-color: rgb(186, 141, 87);
     padding-top: 5px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-90%, -60%);
+    color: white;
+    z-index: 2;
 }
 
 .slides {
